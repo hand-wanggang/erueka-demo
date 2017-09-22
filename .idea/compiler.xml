@@ -6,6 +6,10 @@
       <module name="eureka-client1_test" target="1.8" />
       <module name="eureka-server1_main" target="1.8" />
       <module name="eureka-server1_test" target="1.8" />
+      <module name="service-customer_main" target="1.8" />
+      <module name="service-customer_test" target="1.8" />
+      <module name="service-provide_main" target="1.8" />
+      <module name="service-provide_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

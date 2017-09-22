@@ -8,6 +8,12 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server1_main.iml" group="eureka-server1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server1_test.iml" group="eureka-server1" />
+      <module fileurl="file://$PROJECT_DIR$/service-customer/service-customer.iml" filepath="$PROJECT_DIR$/service-customer/service-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-customer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-customer_main.iml" group="service-customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-customer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-customer_test.iml" group="service-customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provide.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provide_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provide_main.iml" group="service-provide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-provide_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-provide_test.iml" group="service-provide" />
     </modules>
   </component>
 </project>
