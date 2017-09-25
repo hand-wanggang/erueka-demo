@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hand-wanggang/CloudConfig # git \u4ED3\u5E93\u5730\u5740
+          #password:  #git \u4ED3\u5E93\u5BC6\u7801
+          #username:  #git \u5BC6\u7801
+          search-paths: '{profile}' # \u67E5\u627E\u8DEF\u5F84
+        bootstrap: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
