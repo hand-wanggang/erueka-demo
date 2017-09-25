@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c19f2d0-42ed-43d7-8d44-282dbbd7accd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/feign/RequestServerInfoClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/feign/impl/RequestServerInfoClientImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/out/production/classes/com/wang/demo/servicecustomer/ServiceCustomerApplication.class" afterPath="$PROJECT_DIR$/service-customer/out/production/classes/com/wang/demo/servicecustomer/ServiceCustomerApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/out/production/classes/com/wang/demo/servicecustomer/controller/RibbonRequestController.class" afterPath="$PROJECT_DIR$/service-customer/out/production/classes/com/wang/demo/servicecustomer/controller/RibbonRequestController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/build.gradle" afterPath="$PROJECT_DIR$/service-customer/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/out/production/resources/application.yml" afterPath="$PROJECT_DIR$/service-customer/out/production/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java" afterPath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java" afterPath="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-customer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-customer/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provide/out/production/resources/config/application-dev1.yml" afterPath="$PROJECT_DIR$/service-provide/out/production/resources/config/application-dev1.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provide/out/production/resources/config/application-dev2.yml" afterPath="$PROJECT_DIR$/service-provide/out/production/resources/config/application-dev2.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev1.yml" afterPath="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev1.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev2.yml" afterPath="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev2.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server1/.gradle/" />
     <ignored path="$PROJECT_DIR$/eureka-server1/build/" />
@@ -76,7 +66,46 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RequestServerInfoClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/feign/RequestServerInfoClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RibbonRequestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixCommand.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/9904c19688f585a3726a5fed41d523ee726788fa/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-591">
+              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -979,8 +1008,8 @@
         <entry key="$PROJECT_DIR$/eureka-server1" value="3012044652622" />
         <entry key="$PROJECT_DIR$/eureka-server1/build.gradle" value="3220995128" />
         <entry key="$PROJECT_DIR$/eureka-server1/gradle/wrapper/gradle-wrapper.properties" value="3442123891" />
-        <entry key="$PROJECT_DIR$/service-customer" value="3012357913013" />
-        <entry key="$PROJECT_DIR$/service-customer/build.gradle" value="2012115802" />
+        <entry key="$PROJECT_DIR$/service-customer" value="3012366620617" />
+        <entry key="$PROJECT_DIR$/service-customer/build.gradle" value="42840802" />
         <entry key="$PROJECT_DIR$/service-customer/gradle/wrapper/gradle-wrapper.properties" value="3442123891" />
         <entry key="$PROJECT_DIR$/service-provide" value="3012097945117" />
         <entry key="$PROJECT_DIR$/service-provide/build.gradle" value="2047247438" />
@@ -1713,10 +1742,10 @@
         <option value="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev1.yml" />
         <option value="$PROJECT_DIR$/service-provide/src/main/resources/config/application-dev2.yml" />
         <option value="$PROJECT_DIR$/service-provide/src/main/java/com/wang/demo/serviceprovide/ServiceProvideApplication.java" />
-        <option value="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java" />
-        <option value="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java" />
         <option value="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/feign/RequestServerInfoClient.java" />
         <option value="$PROJECT_DIR$/service-customer/build.gradle" />
+        <option value="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java" />
+        <option value="$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java" />
       </list>
     </option>
   </component>
@@ -1741,7 +1770,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
@@ -2214,10 +2243,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Eureka-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-provide" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -2389,15 +2414,15 @@
       <updated>1505994355407</updated>
       <workItem from="1505994357087" duration="4150000" />
       <workItem from="1506008507442" duration="1887000" />
-      <workItem from="1506302014612" duration="3340000" />
+      <workItem from="1506302014612" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21856000" />
+    <option name="totallyTimeSpent" value="24878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2419,11 +2444,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1404321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55246913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43451464" sideWeight="0.49707174" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18015873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5308642" sideWeight="0.49707174" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26190478" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2457,10 +2482,10 @@
         <state relative-caret-position="171">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2712,8 +2737,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-customer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/9904c19688f585a3726a5fed41d523ee726788fa/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -2730,23 +2775,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/controller/RibbonRequestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-customer/src/main/java/com/wang/demo/servicecustomer/ServiceCustomerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
           </folding>
         </state>
       </provider>

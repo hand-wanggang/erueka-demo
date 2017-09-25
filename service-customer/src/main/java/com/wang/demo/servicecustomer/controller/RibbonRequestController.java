@@ -6,6 +6,7 @@
  */
 package com.wang.demo.servicecustomer.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.wang.demo.servicecustomer.feign.RequestServerInfoClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -33,8 +34,13 @@ public class RibbonRequestController {
 	private RestTemplate restTemplate;
 
 	@RequestMapping("/request")
+	@HystrixCommand(fallbackMethod = "hasError")
 	public String reques(){
 		return restTemplate.getForObject(requestUrl,String.class);
+	}
+
+	public String hasError(){
+		return "sorry server error!";
 	}
 
 	@RequestMapping("/feign")
