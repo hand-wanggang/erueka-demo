@@ -1,6 +1,6 @@
 requestUrl: http://SERVICE-PROVIDE/info # riboon\u8BF7\u6C42\u5730\u5740\uFF0C\u6CE8\u610F\u6B64\u5904\u57DF\u540D\u4F7F\u7528\u7684\u662F\u670D\u52A1\u540Dservice-provide
 server:
-  port: 8092
+  port: 8099
 spring:
   application:
     name: service-customer
@@ -8,3 +8,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+security:
+  basic:
+    enabled: false

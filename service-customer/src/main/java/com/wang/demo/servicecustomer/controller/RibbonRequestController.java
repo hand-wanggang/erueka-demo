@@ -6,6 +6,7 @@
  */
 package com.wang.demo.servicecustomer.controller;
 
+import com.wang.demo.servicecustomer.feign.RequestServerInfoClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,10 +27,18 @@ public class RibbonRequestController {
 	private String requestUrl;
 
 	@Autowired
+	private RequestServerInfoClient serverInfoClient;
+
+	@Autowired
 	private RestTemplate restTemplate;
 
 	@RequestMapping("/request")
 	public String reques(){
 		return restTemplate.getForObject(requestUrl,String.class);
+	}
+
+	@RequestMapping("/feign")
+	public String feign(){
+		return serverInfoClient.info();
 	}
 }
