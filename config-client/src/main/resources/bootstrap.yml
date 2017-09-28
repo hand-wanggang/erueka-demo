@@ -11,7 +11,15 @@ spring:
         enabled: true
         service-id: config-server # \u914D\u7F6E\u670D\u52A1\u4E2D\u5FC3\u7684\u6CE8\u518C\u670D\u52A1\u540D\u79F0
       name: config-client
+  rabbitmq:
+    port: 5672
+    username: guest
+    password: guest
+    host: localhost
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false
