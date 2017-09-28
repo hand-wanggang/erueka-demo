@@ -7,11 +7,14 @@ node{
                         echo 'Building'
                         sh "ls -l"
                         sh "gradle clean bootRepackage"
+                        sh "docker rmi -f jenkins/eureka-server-v-1"
+                        sh "docker build -t jenkins/eureka-server-v-1"
                     }
             }
-            stage('Test') {
-                steps {
-                    echo 'Testing'
-                }
+            stage('rm imag'){
+                sh "docker stop jenkins/eureka-server-v-1"
+            }
+            stage('deploy'){
+                sh "docker run -P 8761:8761 jenkins/eureka-server-v-1"
             }
  }
