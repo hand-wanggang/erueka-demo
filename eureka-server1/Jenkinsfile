@@ -1,16 +1,18 @@
-stages {
-        stage('checkout'){
-            steps{
-                git branch: 'config-server', url: 'https://github.com/hand-wanggang/erueka-demo.git'
+node{
+    stages {
+            stage('checkout'){
+                steps{
+                    git branch: 'config-server', url: 'https://github.com/hand-wanggang/erueka-demo.git'
+                }
+            }
+            stage('build') {
+                    echo 'Building'
+                    sh "gradle clean bootRepackage"
+            }
+            stage('Test') {
+                steps {
+                    echo 'Testing'
+                }
             }
         }
-        stage('build') {
-                echo 'Building'
-                sh "gradle clean bootRepackage"
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing'
-            }
-        }
-    }
+ }
