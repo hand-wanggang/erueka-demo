@@ -10,9 +10,6 @@ node{
                         sh "docker build -t jenkins/eureka-server-v-1 ."
                     }
             }
-            stage('rm imag'){
-                sh "docker stop jenkins/eureka-server-v-1"
-            }
             stage('deploy'){
                 sh "docker run -P 8761:8761 jenkins/eureka-server-v-1"
             }
