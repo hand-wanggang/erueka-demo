@@ -11,6 +11,6 @@ node{
                     }
             }
             stage('deploy'){
-                sh "docker run -P 8761:8761 jenkins/eureka-server-v-1"
+                sh "docker run -p 8761:8761 jenkins/eureka-server-v-1"
             }
  }
