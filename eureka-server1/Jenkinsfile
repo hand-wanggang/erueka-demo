@@ -4,6 +4,7 @@ node{
             }
             stage('build') {
                     echo 'Building'
+                    sh "cd eureka-server1/"
                     sh "gradle clean bootRepackage"
             }
             stage('Test') {
