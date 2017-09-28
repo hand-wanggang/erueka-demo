@@ -1,8 +1,6 @@
 node{
             stage('checkout'){
-                steps{
                     git branch: 'config-server', url: 'https://github.com/hand-wanggang/erueka-demo.git'
-                }
             }
             stage('build') {
                     echo 'Building'
